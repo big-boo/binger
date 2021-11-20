@@ -1,0 +1,23 @@
+.home_head { 
+    width: 100%;
+    height: 55px;
+    font-size: 16px;
+    position: fixed;
+    top: 0;
+    background-color: #ccccd6;
+}
+
+.daohang a {
+    text-decoration: none;
+    color:#93b5cf;
+    font-size: 26px;
+}
+
+
+/* 版权 */
+.copy {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 10px;
+}
+

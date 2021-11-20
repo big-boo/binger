@@ -1,0 +1,83 @@
+.home_head { 
+    width: 100%;
+    height: 55px;
+    font-size: 16px;
+    position: fixed;
+    top: 0;
+    background-color: #ccccd6;
+}
+
+.daohang a {
+    text-decoration: none;
+    color:#93b5cf;
+    font-size: 26px;
+}
+
+body {
+    margin: 0%;
+    padding: 0px;
+    /* background-color:#93b5cf; */
+}
+
+#page{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 55px;
+    height: auto;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    /* padding-top: 400px; */
+}
+#apDiv1 {
+    margin-left: 20px;
+	padding: 10px;
+	width: 1080px;
+	height: 277px;
+	z-index: 1;
+	background-color: #10cf66;
+}
+#apDiv2 {
+	position: absolute;
+	left: 1460px;
+	top: 301px;
+	width: 59px;
+	height: 1727px;
+	z-index: 1;
+	background-color: #FFCC66;
+}
+.fenlei{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(37, 189, 235);
+
+    width: 320px;
+    height: 500px;
+    float: left;
+}
+.fenlei2 {
+    margin-left: 20px;
+
+    padding: 10px;
+    background-color: aqua;
+    width: 1080px;
+    height: 400px;
+}
+#game {
+    margin-top: 560px;
+}
+#music {
+    margin-top: 20px;
+}
+#book {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+/* 版权 */
+.copy {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 10px;
+}

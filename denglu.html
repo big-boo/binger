@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="时宾宾,https://big-boo.github.io,binger12138@outlook.com">
+    <meta name="robots" content="all" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Binger·On man world</title>
+    <meta name="description" content="Binger·On man world">
+    <link rel="stylesheet" href="styles/denglu.css">
+    <link rel="stylesheet" href="styles/daohanglan.css">
+    <link rel="shortcut icon" href="images/html.icon">
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <div class="home_img">
+        <div class="home_head">
+            <table width="100%" border="0">
+                <tr>
+                    <td height="49">
+                        <div class="daohang" align="center"><a href="index.html">主页</a></div>
+                    </td>
+                    <td>
+                        <div class="daohang" align="center"><a href="like.html">爱好</a></div>
+                    </td>
+                    <td>
+                        <div class="daohang" align="center"><a href="timeline.html">时间轴</a></div>
+                    </td>
+                    <td>
+                        <div class="daohang" align="center"><a href="aboutme.html">关于我</a></div>
+                    </td>
+                    <td>
+                        <div class="daohang" align="center"><a href="denglu.html">登录</a></div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!-- 内容 -->
+    <div id="apDiv1">
+        <div align="center"><img src="images/page/binger.jpg" width="100%" height="106"></div>
+    </div>
+    <div id="apDiv2">
+        <div align="center">登录</div>
+    </div>
+
+
+    <div id="apDiv3">
+        <table width="100%" height="391" border="0">
+            <tr>
+                <td width="49%" rowspan="6">
+                    <div align="center"><img src="images/page/book.jpg" width="380" height="290"></div>
+                </td>
+                <td>
+                    <form class="denglu" action="/user/login" method="post">
+
+                        <div class="layui-input-inline">
+                            <div class="layui-inline">
+                                <i class="layui-icon layui-icon-cellphone"></i>
+                            </div>
+
+                            <div class="layui-inline" style="width: 93%"> 手机号：&nbsp;&nbsp;
+                                <input type="text" name="username" required lay-verify="required" placeholder="手机号"
+                                    autocomplete="off" class="layui-input" max="11">
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="layui-input-inline">
+                            <div class="layui-inline">
+                                <i class="layui-icon layui-icon-password"></i>
+
+                            </div>
+
+                            <div class="layui-inline" style="width: 93%">密码：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input type="password" name="password" required lay-verify="required" placeholder="密码"
+                                    autocomplete="off" class="layui-input" min="6">
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="layui-input-inline login-btn">
+                            <button lay-submit="" lay-filter="login" type="submit" class="layui-btn">登录</button>
+
+                        </div>
+                        <hr>
+                        <p><a href="zhuce.html" class="fl">立即注册</a>
+                        </p>
+                    </form>
+                </td>
+            </tr>
+        </table>
+        <!-- 页脚 -->
+    </div>
+    <hr>
+    <div class="foot" id="apDiv4">
+        <div class="copy">
+            <p class="copy_sub">
+                Copyright-&copy; 2021 Binger
+            </p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
