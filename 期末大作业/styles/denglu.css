@@ -1,0 +1,56 @@
+body {
+    margin: 0%;
+    padding: 0px;
+    /* background-color:#d8e3e7; */
+}
+
+#apDiv1 {
+	position: absolute;
+	/* left: 3px; */
+	top: 52px;
+	width: 100%;
+	height: 108px;
+	z-index: 1;
+}
+
+#apDiv2 {
+	position: absolute;
+	left: 254px;
+	top: 163px;
+	width: 1104px;
+	height: 57px;
+	z-index: 2;
+	font-size: 42px;
+	font-family: "微软雅黑";
+}
+    #apDiv3 {
+	position: absolute;
+	left: 253px;
+	top: 220px;
+	width: 1106px;
+	height: 386px;
+	z-index: 3;
+	background-color: #00A1D8;
+	}
+
+	#apDiv4 {
+		position: absolute;
+		top: 700px;
+	}
+
+
+
+
+	
+/* 页脚*/
+.foot {
+    
+    /* height: 200px; */
+    width: 100%;
+    margin: 0px;
+
+}
+.copy {
+    text-align: center;
+}
+
